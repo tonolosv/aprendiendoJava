@@ -1,0 +1,38 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package constantes;
+
+/**
+ *
+ * @author 
+ */
+public class Constantes {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        /*
+        es un dato que mantendra su valor, y esta no se modificara
+        y al tipo de variable se lo coloca final
+        */
+        
+        int num1, num2, num3;
+        num1 = 10;
+        num2 = 15;
+        num3 = 20;
+        System.out.println("num1 = "+ num1 + " asi empezo");
+        System.out.println("pero si a num1, le asigno otro valor como num1 = 15" + " cambia a " + num2);
+        System.out.println("Por lo tanto se cambia, si ahora le asigno num1 = 20, este vuelve a cambiar a num1= " + num3);
+        System.out.println("Para que el valor este constante debo anteponer 'final'");
+        final int num=10;
+        System.out.println("Num: " + num);
+        // no acepta el cambio para 'num = 15'
+       
+                
+    }
+    
+}
